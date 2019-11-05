@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3895f1cc-8fc7-4a36-8666-db61ca665b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/SpringbootSeckillApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/AccessInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/AccessLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/config/UserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/MiaoshaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/MiaoshaUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MiaoshaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/AccessKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/BasePrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/GoodsKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/KeyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/MiaoshaKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/MiaoshaUserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/OrderKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/result/CodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/util/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/GoodsDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/GoodsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/OrderDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/miaosha.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/goods_detail.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/iphone8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/iphonex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/meta10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/mi6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/order_detail.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/goods_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/goods_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/miaosha_fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/test/java/com/pjb/springbootseckill/SpringbootSeckillApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/CORSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/aop/LogAspectj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/MsgCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-acc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-error.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsImgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/UserAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/UserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode513.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode637.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/BestValue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/BestValue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ContinueSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/DIDI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/EntryNodeOfLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ForkJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/IsContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/NIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/ReversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/balanceTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/c1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/findOneTimesNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/leetcode17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/leetcode46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/lx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/lx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/removeDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/reverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/tx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/wy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-api/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-service/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="foodie-dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/foodie-dev-common/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/resources/apllication.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1307" />
+    <option name="y" value="23" />
+    <option name="width" value="1253" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-dev-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.my.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo" />
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3895f1cc-8fc7-4a36-8666-db61ca665b04" name="Default Changelist" comment="" />
+      <created>1572878700602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572878700602</updated>
+      <workItem from="1572878702048" duration="1176000" />
+      <workItem from="1572925553214" duration="543000" />
+      <workItem from="1572944393438" duration="3901000" />
+      <workItem from="1572949656785" duration="378000" />
+      <workItem from="1572950061096" duration="2784000" />
+      <workItem from="1572959303089" duration="349000" />
+      <workItem from="1572959680832" duration="400000" />
+      <workItem from="1572960141117" duration="177000" />
+      <workItem from="1572960353699" duration="589000" />
+      <workItem from="1572960991885" duration="447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10744000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1307" y="23" width="1253" height="1417" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.2213047" />
+      <window_info id="Structure" order="1" sideWeight="0.5011389" side_tool="true" weight="0.24277456" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50038195" side_tool="true" weight="0.24277456" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32925898" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925898" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925898" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="RestServices" weight="0.32947975" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24938068" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32700247" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.328654" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Redis Servers" order="9" weight="0.3295238" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32947975" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.5.RELEASE/spring-boot-starter-parent-2.1.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/resources/apllication.yml" />
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Carousel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CarouselMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>foodie-dev-pojo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
