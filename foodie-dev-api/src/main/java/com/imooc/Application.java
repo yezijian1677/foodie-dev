@@ -2,6 +2,8 @@ package com.imooc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @author augenye
@@ -10,6 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 扫描子包下的bean
  */
 @SpringBootApplication
+@MapperScan(basePackages = "com.imooc.mapper")
+@ComponentScan(basePackages = {"com.imooc","org.n3r.idworker"})
 public class Application {
 
     public static void main(String[] args) {
