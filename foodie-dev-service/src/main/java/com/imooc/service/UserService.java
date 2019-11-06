@@ -18,8 +18,8 @@ public interface UserService {
 
     /**
      * 创建一个用户
-     * @param userBo bo
-     * @return users
+     * @param userBo 接收一个bo对象
+     * @return users 返回一个users类型
      */
     Users createUser(UserBo userBo);
 }

@@ -7,7 +7,6 @@ import com.imooc.pojo.Users;
 import com.imooc.service.UserService;
 import com.imooc.utils.DateUtil;
 import com.imooc.utils.MD5Utils;
-import org.apache.catalina.User;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -37,7 +36,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean queryUsernameIsExist(String username) {
         //建立一个example 方便查询
-        Example userExample = new Example(User.class);
+        Example userExample = new Example(Users.class);
         Example.Criteria userCriteria = userExample.createCriteria();
 
         //等价查询
@@ -51,7 +50,12 @@ public class UserServiceImpl implements UserService {
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     @Override
     public Users createUser(UserBo userBo) {
+
+        //获取一个全局唯一的id
+        String userId = sid.nextShort();
+        //建立一个user对象并且注入属性
         Users user = new Users();
+        user.setId(userId);
         user.setUsername(userBo.getUsername());
         try {
             user.setPassword(MD5Utils.getMD5Str(userBo.getPassword()));
@@ -62,11 +66,12 @@ public class UserServiceImpl implements UserService {
         user.setFace(USER_FACE);
         user.setBirthday(DateUtil.stringToDate(BIRTHDAY));
         user.setSex(Sex.secret.type);
-
         user.setCreatedTime(new Date());
         user.setUpdatedTime(new Date());
 
+        //插入user
+        usersMapper.insert(user);
 
-        return null;
+        return user;
     }
 }

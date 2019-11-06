@@ -2,14 +2,15 @@ package com.imooc.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @author augenye
  * @date 2019-11-04 22:58
  */
+@ApiIgnore
 @RestController
 public class HelloController {
-
     /**
      * 七个事务情况
      * 第一大类：支持事务的模式
