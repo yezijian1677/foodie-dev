@@ -74,4 +74,53 @@ public class UserServiceImpl implements UserService {
 
         return user;
     }
+
+    @Override
+    public Users queryUSerForLogin(String username, String password) {
+
+        //建立一个example 方便查询
+        Example userExample = new Example(Users.class);
+        Example.Criteria userCriteria = userExample.createCriteria();
+
+        userCriteria.andEqualTo("username", username);
+        userCriteria.andEqualTo("password", password);
+
+        Users result = usersMapper.selectOneByExample(userExample);
+
+        return result;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
