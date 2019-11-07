@@ -144,17 +144,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-api/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspect/ServiceLogAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums/YesOrNo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsImgMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" afterDir="false" />
@@ -168,7 +163,6 @@
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
@@ -192,17 +186,7 @@
       <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Orders.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/UserAddress.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SubCategoryVO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foodie-dev-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CarouselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-13-48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-14-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-14-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-15-23" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
@@ -244,10 +228,6 @@
       <change afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -445,7 +425,8 @@
       <workItem from="1573090336695" duration="480000" />
       <workItem from="1573090839871" duration="11149000" />
       <workItem from="1573109270981" duration="2323000" />
-      <workItem from="1573111692658" duration="115000" />
+      <workItem from="1573111692658" duration="918000" />
+      <workItem from="1573124191771" duration="264000" />
     </task>
     <servers />
   </component>
