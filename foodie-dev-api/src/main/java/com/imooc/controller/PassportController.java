@@ -94,10 +94,56 @@ public class PassportController {
             e.printStackTrace();
         }
 
+        // 如果查询的信息为null
         if (result == null) {
             return Result.errorMsg("用户名或者密码不正确");
         }
 
+        // 2. 清除隐私信息
+        result = setNullProperty(result);
+
+        // 3. cookie
+
+
         return Result.ok(result);
     }
+
+    /**
+     * 清除隐私信息
+     * @param result userResult
+     * @return Users
+     */
+    private Users setNullProperty(Users result) {
+        result.setPassword(null);
+        result.setMobile(null);
+        result.setEmail(null);
+        result.setCreatedTime(null);
+        result.setUpdatedTime(null);
+        result.setBirthday(null);
+
+        return result;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
