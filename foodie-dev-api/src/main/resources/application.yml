@@ -28,6 +28,8 @@ spring:
 mybatis:
   type-aliases-package: com.imooc.pojo          # 所有POJO类所在包路径
   mapper-locations: classpath:mapper/*.xml      # mapper映射文件
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql打印
 ############################################################
 #
 # web访问端口号  约定：8088

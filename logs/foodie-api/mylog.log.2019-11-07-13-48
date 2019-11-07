@@ -1,0 +1,11 @@
+2019-11-07 13:48:07 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-07 13:48:07 INFO  DispatcherServlet:546 - Completed initialization in 7 ms
+2019-11-07 13:48:07 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 13:48:07 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-07 13:48:07 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-07 13:48:07 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2019-11-07 13:48:08 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2019-11-07 13:48:08 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 778毫秒 ======
+2019-11-07 13:48:18 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-07 13:48:18 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-07 13:48:18 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

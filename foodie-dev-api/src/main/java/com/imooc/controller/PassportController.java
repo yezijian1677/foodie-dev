@@ -3,6 +3,8 @@ package com.imooc.controller;
 import com.imooc.bo.UserBo;
 import com.imooc.pojo.Users;
 import com.imooc.service.UserService;
+import com.imooc.utils.CookieUtils;
+import com.imooc.utils.JsonUtils;
 import com.imooc.utils.MD5Utils;
 import com.imooc.utils.Result;
 import io.swagger.annotations.Api;
@@ -10,6 +12,9 @@ import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author augenye
@@ -44,14 +49,14 @@ public class PassportController {
 
     @ApiOperation(value = "用户注册", notes = "用户注册", httpMethod = "POST")
     @PostMapping("/regist")
-    public Result register(@RequestBody UserBo userBo) {
+    public Result register(@RequestBody UserBo userBo, HttpServletRequest request, HttpServletResponse response) {
         String username = userBo.getUsername();
         String password = userBo.getPassword();
         String confirmPwd = userBo.getConfirmPassword();
 
         // 0. 判断用户名密码不为空
-        if (StringUtils.isBlank(username)||
-                StringUtils.isBlank(password)||
+        if (StringUtils.isBlank(username) ||
+                StringUtils.isBlank(password) ||
                 StringUtils.isBlank(confirmPwd)) {
             return Result.errorMsg("用户名或者密码不能为空");
         }
@@ -69,19 +74,25 @@ public class PassportController {
             return Result.errorMsg("两次密码输入不一致");
         }
         // 4. 实现注册
-        userService.createUser(userBo);
+        Users result = userService.createUser(userBo);
+
+        result = setNullProperty(result);
+
+        // 3. cookie
+        CookieUtils.setCookie(request, response, "user",
+                JsonUtils.objectToJson(result), true);
 
         return Result.ok();
     }
 
     @ApiOperation(value = "用户登录", notes = "用户登录", httpMethod = "POST")
     @PostMapping("/login")
-    public Result login(@RequestBody UserBo userBo) {
+    public Result login(@RequestBody UserBo userBo, HttpServletRequest request, HttpServletResponse response) {
         String username = userBo.getUsername();
         String password = userBo.getPassword();
 
         // 0. 判断用户名密码不为空
-        if (StringUtils.isBlank(username)||
+        if (StringUtils.isBlank(username) ||
                 StringUtils.isBlank(password)) {
             return Result.errorMsg("用户名或者密码不能为空");
         }
@@ -103,13 +114,28 @@ public class PassportController {
         result = setNullProperty(result);
 
         // 3. cookie
-
+        CookieUtils.setCookie(request, response, "user",
+                JsonUtils.objectToJson(result), true);
 
         return Result.ok(result);
+
+
+    }
+
+    @ApiOperation(value = "用户退出登录", notes = "用户退出登录", httpMethod = "POST")
+    @PostMapping("/logout")
+    public Result login(@RequestParam String userId, HttpServletRequest request, HttpServletResponse response) {
+        //清除用户相关信息的cookie
+        CookieUtils.deleteCookie(request, response, "user");
+        //TODO 用户退出登录，需要清空购物车
+        //TODO 分布式会话中需要清楚用户数据
+
+        return Result.ok();
     }
 
     /**
      * 清除隐私信息
+     *
      * @param result userResult
      * @return Users
      */
@@ -123,27 +149,6 @@ public class PassportController {
 
         return result;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
