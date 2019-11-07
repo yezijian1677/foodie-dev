@@ -7,6 +7,7 @@ import com.imooc.service.CarouselService;
 import com.imooc.service.CategoryService;
 import com.imooc.utils.Result;
 import com.imooc.vo.CategoryVO;
+import com.imooc.vo.NewItemsVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -66,5 +67,14 @@ public class IndexController {
         return Result.ok(list);
     }
 
+    @ApiOperation(value = "查询每个分类下六个最新商品", notes = "查询每个分类下六个最新商品", httpMethod = "GET")
+    @GetMapping("/sixNewItems/{rootCatId}")
+    public Result sixNewItems(@ApiParam(name = "rootCatId", value = "一级分类ID", required = true) @PathVariable Integer rootCatId) {
+        if (rootCatId == null) {
+            return Result.errorMsg("分类不存在");
+        }
+        List<NewItemsVO> list = categoryService.getSixNewItemsLazy(rootCatId);
 
+        return Result.ok(list);
+    }
 }

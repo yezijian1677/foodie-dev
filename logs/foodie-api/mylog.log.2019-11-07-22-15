@@ -1,0 +1,31 @@
+2019-11-07 22:15:36 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:36 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:15:36 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:15:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 73毫秒 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:15:37 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:15:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:15:37 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:15:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:37 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:15:37 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:15:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-07 22:15:50 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:50 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:15:50 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:15:50 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 79毫秒 ======
+2019-11-07 22:15:50 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:50 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:15:50 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:15:50 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 41毫秒 ======
+2019-11-07 22:15:51 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:15:51 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:15:51 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:15:51 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 78毫秒 ======
+2019-11-07 22:15:56 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-07 22:15:56 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-07 22:15:56 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

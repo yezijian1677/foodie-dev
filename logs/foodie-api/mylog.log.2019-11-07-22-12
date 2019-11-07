@@ -1,0 +1,76 @@
+2019-11-07 22:12:26 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:26 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:26 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-07 22:12:26 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 80毫秒 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:28 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-07 22:12:28 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-07 22:12:28 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-07 22:12:28 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 76毫秒 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:28 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-07 22:12:28 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:12:28 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:32 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:12:32 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:32 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:12:32 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 44毫秒 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:32 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:12:32 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 47毫秒 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:32 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:32 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:12:32 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 43毫秒 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:38 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:12:38 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 71毫秒 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:38 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:12:38 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 36毫秒 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:38 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:12:38 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:38 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:38 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:12:38 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 37毫秒 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:46 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:12:46 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:46 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:12:46 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 73毫秒 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:46 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-07 22:12:46 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-07 22:12:46 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 90毫秒 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:49 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:12:49 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:49 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:12:49 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 44毫秒 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:49 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:12:49 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 47毫秒 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:12:49 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:12:49 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:12:49 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 44毫秒 ======

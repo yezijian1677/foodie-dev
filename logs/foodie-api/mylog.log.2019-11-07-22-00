@@ -1,0 +1,52 @@
+2019-11-07 22:00:07 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-07 22:00:07 INFO  DispatcherServlet:546 - Completed initialization in 7 ms
+2019-11-07 22:00:07 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:07 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:07 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:00:07 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2019-11-07 22:00:08 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2019-11-07 22:00:08 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 756毫秒 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:08 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:00:08 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 59毫秒 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:08 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:00:08 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:08 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:08 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:00:08 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:00:16 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:16 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:16 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:00:16 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 76毫秒 ======
+2019-11-07 22:00:16 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:16 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:16 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:00:17 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 41毫秒 ======
+2019-11-07 22:00:17 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:17 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:17 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:00:17 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:00:17 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:17 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:17 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:00:17 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:30 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-07 22:00:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:30 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-07 22:00:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:30 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-07 22:00:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-07 22:00:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-07 22:00:30 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-07 22:00:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
