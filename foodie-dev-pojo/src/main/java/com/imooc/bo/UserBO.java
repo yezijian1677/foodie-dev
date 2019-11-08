@@ -10,7 +10,7 @@ import lombok.Data;
  */
 @ApiModel(value = "用户对象BO", description = "从客服端，由用户传输的数据，封装在次entity当中")
 @Data
-public class UserBo {
+public class UserBO {
 
     @ApiModelProperty(value = "用户名", name = "username", example = "imooc")
     private String username;

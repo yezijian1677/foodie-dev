@@ -1,0 +1,10 @@
+2019-11-08 21:37:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:37:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.UserServiceImpl
+2019-11-08 21:37:06 INFO  ServiceLogAspect:45 - 执行签名: queryUSerForLogin
+2019-11-08 21:37:07 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 89毫秒 ======
+2019-11-08 21:37:07 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-08 21:37:43 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:37:43 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.UserServiceImpl
+2019-11-08 21:37:43 INFO  ServiceLogAspect:45 - 执行签名: queryUSerForLogin
+2019-11-08 21:37:43 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-08 21:37:43 INFO  CookieUtils:198 - ========== domainName: localhost ==========

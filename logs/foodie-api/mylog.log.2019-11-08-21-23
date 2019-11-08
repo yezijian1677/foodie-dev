@@ -1,0 +1,24 @@
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 74毫秒 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 44毫秒 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:23:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:23:21 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:23:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======

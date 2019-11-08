@@ -1,0 +1,22 @@
+2019-11-08 21:28:41 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:28:41 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:28:41 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 21:28:41 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:28:41 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 21:28:41 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 21:28:41 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 73毫秒 ======
+2019-11-08 21:28:41 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-08 21:28:41 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:28:41 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:28:41 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 21:28:41 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 74毫秒 ======
+2019-11-08 21:28:47 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:28:47 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.UserServiceImpl
+2019-11-08 21:28:47 INFO  ServiceLogAspect:45 - 执行签名: queryUSerForLogin
+2019-11-08 21:28:47 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 73毫秒 ======
+2019-11-08 21:28:47 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-08 21:28:57 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:28:57 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.UserServiceImpl
+2019-11-08 21:28:57 INFO  ServiceLogAspect:45 - 执行签名: queryUSerForLogin
+2019-11-08 21:28:57 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 79毫秒 ======
+2019-11-08 21:28:57 INFO  CookieUtils:198 - ========== domainName: localhost ==========

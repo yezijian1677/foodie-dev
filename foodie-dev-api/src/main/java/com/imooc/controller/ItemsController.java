@@ -9,6 +9,7 @@ import com.imooc.utils.PagedGridResult;
 import com.imooc.utils.Result;
 import com.imooc.vo.CommentLevelCountsVO;
 import com.imooc.vo.ItemInfoVO;
+import com.imooc.vo.ShopCartVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -96,5 +97,34 @@ public class ItemsController extends BaseController {
         PagedGridResult grid = itemService.searchItems(keywords, sort, page, pageSize);
 
         return Result.ok(grid);
+    }
+
+    @ApiOperation(value = "分类id搜索商品列表", notes = "分类id搜索商品列表", httpMethod = "GET")
+    @GetMapping("/catItems")
+    public Result catItems(@ApiParam(name = "catId", value = "分类id", required = true) @RequestParam Integer catId,
+                         @ApiParam(name = "sort", value = "排序规则") @RequestParam String sort,
+                         @ApiParam(name = "page", value = "查询下一页的第几页") @RequestParam(defaultValue = "1") Integer page,
+                         @ApiParam(name = "pageSize", value = "分页每一页显示的条数") @RequestParam(defaultValue = "20") Integer pageSize) {
+        if (catId == null) {
+            return Result.errorMsg("关键词为空");
+        }
+
+        PagedGridResult grid = itemService.searchItemsByThirdCat(catId, sort, page, pageSize);
+
+        return Result.ok(grid);
+    }
+
+    //用于用户长时间未登录网站，刷新购物车重的数据，主要是商品价格，类似京东淘宝
+    @ApiOperation(value = "根据商品规格ids查询商品数据", notes = "根据商品规格ids查询商品数据", httpMethod = "GET")
+    @GetMapping("/refresh")
+    public Result refresh(@ApiParam(name = "itemSpecIds", value = "拼接规格", required = true, example = "1001,1002,1003") @RequestParam String itemSpecIds) {
+
+        if (StringUtils.isBlank(itemSpecIds)) {
+            return Result.errorMsg("关键词为空");
+        }
+
+        List<ShopCartVO> list = itemService.queryItemsBySpecIds(itemSpecIds);
+
+        return Result.ok(list);
     }
 }

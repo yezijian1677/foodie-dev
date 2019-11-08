@@ -6,6 +6,7 @@ import com.imooc.pojo.ItemsParam;
 import com.imooc.pojo.ItemsSpec;
 import com.imooc.utils.PagedGridResult;
 import com.imooc.vo.CommentLevelCountsVO;
+import com.imooc.vo.ShopCartVO;
 
 import java.util.List;
 
@@ -79,6 +80,26 @@ public interface ItemService {
      */
     PagedGridResult searchItems(String keywords, String sort,
                                        Integer page, Integer pageSize);
+
+    /**
+     * 根据分类id搜索商品
+     * @param catId 分类id
+     * @param sort 排序规则
+     * @param page 页码
+     * @param pageSize 页大小
+     * @return
+     */
+    PagedGridResult searchItemsByThirdCat(Integer catId, String sort,
+                                Integer page, Integer pageSize);
+
+
+    /**
+     * 根据规格ids查询最新的购物车重的商品数据
+     * @param specIds ids
+     * @return shopCartVo
+     */
+    List<ShopCartVO> queryItemsBySpecIds(String specIds);
+
 
 
 }

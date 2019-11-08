@@ -1,0 +1,4 @@
+2019-11-08 21:43:01 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:43:01 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:43:01 INFO  ServiceLogAspect:45 - 执行签名: queryItemsBySpecIds
+2019-11-08 21:43:01 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 74毫秒 ======

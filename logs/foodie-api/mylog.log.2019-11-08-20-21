@@ -1,0 +1,79 @@
+2019-11-08 20:21:19 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-11-08 20:21:19 INFO  Application:50 - Starting Application on yezijiandeMacBook-Pro.local with PID 26975 (/Users/yezijian/project/foodie-dev/foodie-dev-api/target/classes started by yezijian in /Users/yezijian/project/foodie-dev)
+2019-11-08 20:21:19 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2019-11-08 20:21:20 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2019-11-08 20:21:20 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$436a3f0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 20:21:20 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2019-11-08 20:21:21 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 1463 ms
+2019-11-08 20:21:22 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 20:21:22 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-11-08 20:21:22 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-11-08 20:21:22 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-11-08 20:21:22 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2019-11-08 20:21:22 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2019-11-08 20:21:22 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2019-11-08 20:21:22 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2019-11-08 20:21:22 INFO  CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingPOST_1
+2019-11-08 20:21:22 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8088 (http) with context path ''
+2019-11-08 20:21:22 INFO  Application:59 - Started Application in 3.708 seconds (JVM running for 4.214)
+2019-11-08 20:21:36 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-08 20:21:36 INFO  DispatcherServlet:546 - Completed initialization in 10 ms
+2019-11-08 20:21:36 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:36 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:36 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 20:21:36 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 20:21:36 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 20:21:36 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 20:21:36 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2019-11-08 20:21:37 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2019-11-08 20:21:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 766毫秒 ======
+2019-11-08 20:21:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 809毫秒 ======
+2019-11-08 20:21:37 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:37 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 20:21:37 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 20:21:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 41毫秒 ======
+2019-11-08 20:21:40 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:40 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 20:21:40 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 20:21:40 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 75毫秒 ======
+2019-11-08 20:21:50 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:50 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.UserServiceImpl
+2019-11-08 20:21:50 INFO  ServiceLogAspect:45 - 执行签名: queryUSerForLogin
+2019-11-08 20:21:50 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 75毫秒 ======
+2019-11-08 20:21:50 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-08 20:21:51 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:51 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:51 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 20:21:51 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 20:21:51 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 20:21:51 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 20:21:51 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-08 20:21:51 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-08 20:21:51 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:51 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 20:21:51 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 20:21:51 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryCommentCounts
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 74毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 37毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 37毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 20:21:53 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 152毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 166毫秒 ======
+2019-11-08 20:21:53 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======

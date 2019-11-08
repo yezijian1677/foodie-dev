@@ -1,0 +1,40 @@
+2019-11-08 21:35:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 21:35:06 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 21:35:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:06 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 21:35:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 72毫秒 ======
+2019-11-08 21:35:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 73毫秒 ======
+2019-11-08 21:35:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:06 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 21:35:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 21:35:42 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 21:35:42 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:42 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 21:35:42 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 71毫秒 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:42 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:42 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 21:35:42 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 75毫秒 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CarouselServiceImpl
+2019-11-08 21:35:55 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-08 21:35:55 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:55 INFO  ServiceLogAspect:45 - 执行签名: queryAllRootLevelCat
+2019-11-08 21:35:55 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 72毫秒 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:55 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:55 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 21:35:55 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-08 21:35:56 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:35:56 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:35:56 INFO  ServiceLogAspect:45 - 执行签名: getSubCatList
+2019-11-08 21:35:56 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 80毫秒 ======

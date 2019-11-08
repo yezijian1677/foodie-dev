@@ -1,6 +1,6 @@
 package com.imooc.service.impl;
 
-import com.imooc.bo.UserBo;
+import com.imooc.bo.UserBO;
 import com.imooc.enums.Sex;
 import com.imooc.mapper.UsersMapper;
 import com.imooc.pojo.Users;
@@ -49,20 +49,20 @@ public class UserServiceImpl implements UserService {
 
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     @Override
-    public Users createUser(UserBo userBo) {
+    public Users createUser(UserBO userBO) {
 
         //获取一个全局唯一的id
         String userId = sid.nextShort();
         //建立一个user对象并且注入属性
         Users user = new Users();
         user.setId(userId);
-        user.setUsername(userBo.getUsername());
+        user.setUsername(userBO.getUsername());
         try {
-            user.setPassword(MD5Utils.getMD5Str(userBo.getPassword()));
+            user.setPassword(MD5Utils.getMD5Str(userBO.getPassword()));
         } catch (Exception e) {
             e.printStackTrace();
         }
-        user.setNickname(userBo.getUsername());
+        user.setNickname(userBO.getUsername());
         user.setFace(USER_FACE);
         user.setBirthday(DateUtil.stringToDate(BIRTHDAY));
         user.setSex(Sex.secret.type);

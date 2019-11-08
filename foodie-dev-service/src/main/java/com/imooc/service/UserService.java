@@ -1,6 +1,6 @@
 package com.imooc.service;
 
-import com.imooc.bo.UserBo;
+import com.imooc.bo.UserBO;
 import com.imooc.pojo.Users;
 
 /**
@@ -18,10 +18,10 @@ public interface UserService {
 
     /**
      * 创建一个用户
-     * @param userBo 接收一个bo对象
+     * @param userBO 接收一个bo对象
      * @return users 返回一个users类型
      */
-    Users createUser(UserBo userBo);
+    Users createUser(UserBO userBO);
 
     /**
      * 检索用户名和密码是否匹配

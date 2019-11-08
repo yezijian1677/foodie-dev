@@ -1,0 +1,28 @@
+2019-11-08 21:24:29 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:29 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-08 21:24:29 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-08 21:24:29 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-08 21:24:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:30 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments
+2019-11-08 21:24:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:30 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-08 21:24:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:30 INFO  ServiceLogAspect:45 - 执行签名: queryCommentCounts
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 71毫秒 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:31 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 40毫秒 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:31 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 116毫秒 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 21:24:31 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 163毫秒 ======
+2019-11-08 21:24:31 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======

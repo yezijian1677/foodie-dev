@@ -1,6 +1,6 @@
 package com.imooc.controller;
 
-import com.imooc.bo.UserBo;
+import com.imooc.bo.UserBO;
 import com.imooc.pojo.Users;
 import com.imooc.service.UserService;
 import com.imooc.utils.CookieUtils;
@@ -49,10 +49,10 @@ public class PassportController {
 
     @ApiOperation(value = "用户注册", notes = "用户注册", httpMethod = "POST")
     @PostMapping("/regist")
-    public Result register(@RequestBody UserBo userBo, HttpServletRequest request, HttpServletResponse response) {
-        String username = userBo.getUsername();
-        String password = userBo.getPassword();
-        String confirmPwd = userBo.getConfirmPassword();
+    public Result register(@RequestBody UserBO userBO, HttpServletRequest request, HttpServletResponse response) {
+        String username = userBO.getUsername();
+        String password = userBO.getPassword();
+        String confirmPwd = userBO.getConfirmPassword();
 
         // 0. 判断用户名密码不为空
         if (StringUtils.isBlank(username) ||
@@ -74,7 +74,7 @@ public class PassportController {
             return Result.errorMsg("两次密码输入不一致");
         }
         // 4. 实现注册
-        Users result = userService.createUser(userBo);
+        Users result = userService.createUser(userBO);
 
         result = setNullProperty(result);
 
@@ -87,9 +87,9 @@ public class PassportController {
 
     @ApiOperation(value = "用户登录", notes = "用户登录", httpMethod = "POST")
     @PostMapping("/login")
-    public Result login(@RequestBody UserBo userBo, HttpServletRequest request, HttpServletResponse response) {
-        String username = userBo.getUsername();
-        String password = userBo.getPassword();
+    public Result login(@RequestBody UserBO userBO, HttpServletRequest request, HttpServletResponse response) {
+        String username = userBO.getUsername();
+        String password = userBO.getPassword();
 
         // 0. 判断用户名密码不为空
         if (StringUtils.isBlank(username) ||
@@ -116,6 +116,9 @@ public class PassportController {
         // 3. cookie
         CookieUtils.setCookie(request, response, "user",
                 JsonUtils.objectToJson(result), true);
+
+        // TODO 生成用户token，存入redis会话
+        // TODO 同步购物车数据
 
         return Result.ok(result);
 
