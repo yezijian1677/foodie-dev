@@ -1,0 +1,14 @@
+2019-11-08 15:29:20 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-08 15:29:20 INFO  DispatcherServlet:546 - Completed initialization in 7 ms
+2019-11-08 15:29:20 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 15:29:20 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 15:29:20 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments
+2019-11-08 15:29:20 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2019-11-08 15:29:20 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2019-11-08 15:29:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 900毫秒 ======
+2019-11-08 15:29:33 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 15:29:33 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 15:29:33 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments
+2019-11-08 15:29:56 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-08 15:29:56 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-08 15:29:56 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments

@@ -5,6 +5,7 @@ import com.imooc.pojo.ItemsImg;
 import com.imooc.pojo.ItemsParam;
 import com.imooc.pojo.ItemsSpec;
 import com.imooc.service.ItemService;
+import com.imooc.utils.PagedGridResult;
 import com.imooc.utils.Result;
 import com.imooc.vo.CommentLevelCountsVO;
 import com.imooc.vo.ItemInfoVO;
@@ -26,7 +27,7 @@ import java.util.List;
 @Api(value = "商品接口", tags = "商品信息展示的相关接口")
 @RestController
 @RequestMapping("items")
-public class ItemsController {
+public class ItemsController extends BaseController {
 
     @Autowired
     private ItemService itemService;
@@ -61,4 +62,39 @@ public class ItemsController {
         return Result.ok(countsVO);
     }
 
+    @ApiOperation(value = "查询商品评论", notes = "查询商品评论", httpMethod = "GET")
+    @GetMapping("/comments")
+    public Result comments(@ApiParam(name = "itemId", value = "商品ID", required = true) @RequestParam String itemId,
+                           @ApiParam(name = "level", value = "评价等级") @RequestParam Integer level,
+                           @ApiParam(name = "page", value = "查询下一页的第几页") @RequestParam Integer page,
+                           @ApiParam(name = "pageSize", value = "分页每一页显示的条数") @RequestParam Integer pageSize) {
+        if (StringUtils.isBlank(itemId)) {
+            return Result.errorMsg("商品id为空");
+        }
+        if (page == null) {
+            page = 1;
+        }
+        if (pageSize == null) {
+            page = COMMENT_PAGE_SIZE;
+        }
+
+        PagedGridResult grid = itemService.queryPagedComments(itemId, level, page, pageSize);
+
+        return Result.ok(grid);
+    }
+
+    @ApiOperation(value = "查询商品", notes = "查询商品", httpMethod = "GET")
+    @GetMapping("/search")
+    public Result search(@ApiParam(name = "keywords", value = "关键词", required = true) @RequestParam String keywords,
+                           @ApiParam(name = "sort", value = "排序规则") @RequestParam String sort,
+                           @ApiParam(name = "page", value = "查询下一页的第几页") @RequestParam(defaultValue = "1") Integer page,
+                           @ApiParam(name = "pageSize", value = "分页每一页显示的条数") @RequestParam(defaultValue = "20") Integer pageSize) {
+        if (StringUtils.isBlank(keywords)) {
+            return Result.errorMsg("关键词为空");
+        }
+
+        PagedGridResult grid = itemService.searchItems(keywords, sort, page, pageSize);
+
+        return Result.ok(grid);
+    }
 }

@@ -138,44 +138,76 @@
       <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/ItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums/CommentLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums/PayMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CommentLevelCountsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/ItemInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/NewItemsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SimpleItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-15-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-36" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-38" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-43" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-49" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-52" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-19-58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-20-05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-20-06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-20-07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-20-08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-20-09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-21-59" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-00" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsImgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/UserAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/UserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/ItemCommentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SearchItemsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-07-22-54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-15-41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-17-00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-17-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-17-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-17-04" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
@@ -217,11 +249,11 @@
       <change afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/ItemsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,6 +319,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -312,7 +345,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -323,8 +356,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums" />
       <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
@@ -332,8 +365,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.vo" />
       <recent name="com.imooc.controller" />
-      <recent name="com.imooc.service" />
       <recent name="com.imooc.mapper" />
+      <recent name="com.imooc.service" />
       <recent name="com.imooc.my.mapper" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -344,10 +377,10 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 13 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 13 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="foodie-dev-api" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -430,7 +463,10 @@
       <workItem from="1573111692658" duration="918000" />
       <workItem from="1573124191771" duration="1195000" />
       <workItem from="1573125442920" duration="2487000" />
-      <workItem from="1573127978407" duration="6839000" />
+      <workItem from="1573127978407" duration="7046000" />
+      <workItem from="1573178458216" duration="2997000" />
+      <workItem from="1573191127246" duration="6626000" />
+      <workItem from="1573208309307" duration="272000" />
     </task>
     <servers />
   </component>
