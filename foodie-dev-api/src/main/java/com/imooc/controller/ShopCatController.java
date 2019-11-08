@@ -32,4 +32,16 @@ public class ShopCatController {
 
         return Result.ok();
     }
+
+    @ApiOperation(value = "从购物车中删除商品", notes = "从购物车中删除商品", httpMethod = "POST")
+    @PostMapping("/del")
+    public Result del(@RequestParam String userId, @RequestParam String itemSpecId,
+                      HttpServletRequest request, HttpServletResponse response) {
+        if (StringUtils.isBlank(userId) || StringUtils.isBlank(itemSpecId) ) {
+            return Result.errorMsg("参数不能为空");
+        }
+        // TODO 页面删除购物车中的数据，会同步时购物车到redis缓存
+
+        return Result.ok();
+    }
 }
