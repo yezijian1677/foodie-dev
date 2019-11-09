@@ -1,0 +1,4 @@
+2019-11-09 13:49:12 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-11-09 13:49:37 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-11-09 13:49:38 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-11-09 13:49:38 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]

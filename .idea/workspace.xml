@@ -138,6 +138,20 @@
       <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/bo/AddressBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-08-22-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-13-54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-09-14-05" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
@@ -179,16 +193,12 @@
       <change afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/ShopCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/ShopCatController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -272,16 +282,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.imooc.vo" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.vo" />
-      <recent name="com.imooc.controller" />
-      <recent name="com.imooc.mapper" />
-      <recent name="com.imooc.service" />
-      <recent name="com.imooc.my.mapper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums" />
@@ -289,15 +289,25 @@
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.controller" />
+      <recent name="com.imooc.vo" />
+      <recent name="com.imooc.mapper" />
+      <recent name="com.imooc.service" />
+      <recent name="com.imooc.my.mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.vo" />
+    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 16 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 19 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 16 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 19 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="foodie-dev-api" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -308,6 +318,7 @@
     <option name="myCommands">
       <command value="localhost:8088/doc.html" />
       <command value="mvn" />
+      <command value="run" />
       <command value="mvn install" />
     </option>
   </component>
@@ -383,7 +394,9 @@
       <workItem from="1573127978407" duration="7046000" />
       <workItem from="1573178458216" duration="2997000" />
       <workItem from="1573191127246" duration="6626000" />
-      <workItem from="1573208309307" duration="12688000" />
+      <workItem from="1573208309307" duration="12856000" />
+      <workItem from="1573274397238" duration="122000" />
+      <workItem from="1573274581182" duration="5480000" />
     </task>
     <servers />
   </component>
