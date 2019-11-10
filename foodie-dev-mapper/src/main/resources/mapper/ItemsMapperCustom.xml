@@ -135,6 +135,17 @@
             </foreach>
     </select>
 
+    <update id="decreaseItemSpecStock">
+        UPDATE
+            items_spec
+        SET
+            stock = stock - #{pendingStock}
+        WHERE
+            id = #{specId}
+        and
+            stock >= #{pendingStock}
+    </update>
+
 <!--    &#45;&#45; K 默认， 根据name-->
 <!--    &#45;&#45; c: 根据销量-->
 <!--    &#45;&#45; p: 根据价格-->

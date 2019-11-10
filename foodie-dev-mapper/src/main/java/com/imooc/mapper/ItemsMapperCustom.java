@@ -17,4 +17,6 @@ public interface ItemsMapperCustom {
     List<SearchItemsVO> searchItemsByThirdCat(@Param("paramsMap") Map<String, Object> map);
 
     List<ShopCartVO> queryItemsBySpecIds(@Param("paramsList") List specIdsList);
+
+    int decreaseItemSpecStock(@Param("specId") String specId, @Param("pendingStock") int pendingCounts);
 }
