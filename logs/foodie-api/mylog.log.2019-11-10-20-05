@@ -1,0 +1,69 @@
+2019-11-10 20:05:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-10 20:05:00 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-10 20:05:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 72毫秒 ======
+2019-11-10 20:05:01 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:01 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.CategoryServiceImpl
+2019-11-10 20:05:01 INFO  ServiceLogAspect:45 - 执行签名: getSixNewItemsLazy
+2019-11-10 20:05:01 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 78毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryCommentCounts
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryPagedComments
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 75毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryItemImgList
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 110毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryItemsSpecList
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 39毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:06 INFO  ServiceLogAspect:45 - 执行签名: queryItemsParam
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 165毫秒 ======
+2019-11-10 20:05:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-10 20:05:09 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:09 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:09 INFO  ServiceLogAspect:45 - 执行签名: queryItemsBySpecIds
+2019-11-10 20:05:09 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 83毫秒 ======
+2019-11-10 20:05:13 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:13 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-10 20:05:13 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-10 20:05:13 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-10 20:05:15 INFO  OrdersController:41 - order info: SubmitOrderBO(userId=1908189H7TNWDTXP, itemSpecIds=cake-1005-spec-1, addressId=190825CG3AA14Y3C, payMethod=1, leftMsg=)
+2019-11-10 20:05:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-10 20:05:15 INFO  ServiceLogAspect:45 - 执行签名: createOrder
+2019-11-10 20:05:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-10 20:05:15 INFO  ServiceLogAspect:45 - 执行签名: queryUserAddress
+2019-11-10 20:05:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 37毫秒 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:15 INFO  ServiceLogAspect:45 - 执行签名: queryItemSpecById
+2019-11-10 20:05:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 37毫秒 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:15 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-10 20:05:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 35毫秒 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:15 INFO  ServiceLogAspect:45 - 执行签名: queryItemMainImgById
+2019-11-10 20:05:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 38毫秒 ======
+2019-11-10 20:05:16 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-10 20:05:16 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-10 20:05:16 INFO  ServiceLogAspect:45 - 执行签名: decreaseItemSpecStock
+2019-11-10 20:05:16 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 70毫秒 ======
+2019-11-10 20:05:16 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 446毫秒 ======
+2019-11-10 20:05:16 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-10 20:05:27 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-10 20:05:27 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-10 20:05:27 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

@@ -1,0 +1,25 @@
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: createOrder
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: queryUserAddress
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 43毫秒 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: queryItemSpecById
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 43毫秒 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: queryItemById
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 43毫秒 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: queryItemMainImgById
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 43毫秒 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.ItemServiceImpl
+2019-11-11 15:15:00 INFO  ServiceLogAspect:45 - 执行签名: decreaseItemSpecStock
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-11 15:15:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 525毫秒 ======
+2019-11-11 15:15:01 INFO  CookieUtils:198 - ========== domainName: localhost ==========

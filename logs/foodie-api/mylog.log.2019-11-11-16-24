@@ -1,0 +1,8 @@
+2019-11-11 16:24:32 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 16:24:32 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-11 16:24:32 INFO  ServiceLogAspect:45 - 执行签名: updateOrderStatus
+2019-11-11 16:24:32 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-11 16:24:49 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-11 16:24:49 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-11 16:24:49 INFO  ServiceLogAspect:45 - 执行签名: updateOrderStatus
+2019-11-11 16:24:49 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 75毫秒 ======
