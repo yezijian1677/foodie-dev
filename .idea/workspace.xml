@@ -5,181 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3895f1cc-8fc7-4a36-8666-db61ca665b04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/SpringbootSeckillApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/AccessInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/AccessLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/access/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/config/UserArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/MiaoshaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/MiaoshaUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/MiaoshaUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MQSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/rabbitmq/MiaoshaMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/AccessKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/BasePrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/GoodsKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/KeyPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/MiaoshaKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/MiaoshaUserKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/OrderKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisPoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/redis/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/result/CodeMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/util/UUIDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/GoodsDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/GoodsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/vo/OrderDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/miaosha.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/goods_detail.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/iphone8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/iphonex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/meta10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/img/mi6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/js/md5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/static/order_detail.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/goods_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/goods_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/miaosha_fail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/templates/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/test/java/com/pjb/springbootseckill/SpringbootSeckillApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/CORSConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/dao/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/pojo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/aop/LogAspectj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/controller/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/DateTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/MsgCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisPoolUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-acc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-error.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode144.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode513.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode637.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/BestValue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/BestValue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ContinueSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/DIDI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/EntryNodeOfLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ForkJoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/IsContinue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/NIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/ReversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/balanceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/c1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/findOneTimesNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/leetcode17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/leetcode46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/lx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/lx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/removeDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/reverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/tx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/wy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/center/CenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/center/CenterUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/resources/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/file-upload-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/file-upload-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/center/bo/CenterUserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/center/CenterUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/center/impl/CenterUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foodie/faces/1908189H7TNWDTXP/face-1908189H7TNWDTXP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-11-19-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-20-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-20-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-20-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-20-27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-21-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-21-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/foodie-api/mylog.log.2019-11-15-21-05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oauth/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oauth/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oauth/imoocsecurity/imoocsecurity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oauth/imoocsecurity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/controller/MiaoshaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/java/com/pjb/springbootseckill/service/MiaoshaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Seckill-master/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/CORSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/CORSConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/Service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/pojo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../acevent/src/main/java/com/augenye/acevent/pojo/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/java/cur/pro/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-acc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-acc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-error.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/log4j-error.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogv2/src/main/resources/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../buck/src/main/java/cur/pro/buck/entity/Coffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/OrderJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/OrderJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/InsertSort/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/MergeSort/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/SelectionSort/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/leetcode/leetcode144.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode144.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/leetcode/leetcode513.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode513.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/leetcode/leetcode637.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode637.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/leetcode/leetcode94.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/leetcode/leetcode94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/BestValue1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/BestValue1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/BestValue2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/BestValue2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ContinueSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ContinueSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/DIDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/DIDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/EntryNodeOfLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/EntryNodeOfLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ForkJoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/IsContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/IsContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/NIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/NIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ProducerComsumer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/ReversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/ReversePairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/SemaphoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/balanceTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/balanceTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/c1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/c1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/findOneTimesNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/findOneTimesNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/leetcode17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/leetcode17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/leetcode46.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/leetcode46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/lx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/lx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/lx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/lx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/removeDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/removeDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/reverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/reverseSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/tx4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/tx4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/wy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/wy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/offer/wy4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/offer/wy4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review/src/util/SortHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review/src/util/SortHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/.idea/modules/socket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/.idea/modules/socket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/client/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/client/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/client/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/client/ChatHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/server/ChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/server/UserInputHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/BIO/server/UserInputHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/META-INF/socket.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/simpleIO/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/simpleIO/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/simpleIO/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/build/classes/java/main/simpleIO/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/client/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/client/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/client/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/server/UserInputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/BIO/server/UserInputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/simpleIO/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/simpleIO/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../socket/socket/src/main/java/simpleIO/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/socket/src/main/java/simpleIO/server/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +240,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-api/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -269,32 +250,32 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.imooc.vo" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.config" />
-      <recent name="com.imooc.vo" />
-      <recent name="com.imooc.controller" />
-      <recent name="com.imooc.mapper" />
-      <recent name="com.imooc.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-dev-api/src/main/resources" />
       <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/enums" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
-      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.center.bo" />
+      <recent name="com.imooc.service.center" />
+      <recent name="com.imooc.config" />
+      <recent name="com.imooc.vo" />
+      <recent name="com.imooc.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.vo" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 24 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 27 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 24 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 27 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="foodie-dev-api" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -388,6 +369,9 @@
       <workItem from="1573371939978" duration="5427000" />
       <workItem from="1573389210215" duration="114000" />
       <workItem from="1573439926450" duration="12951000" />
+      <workItem from="1573473515743" duration="6000" />
+      <workItem from="1573816609542" duration="400000" />
+      <workItem from="1573817322685" duration="6577000" />
     </task>
     <servers />
   </component>

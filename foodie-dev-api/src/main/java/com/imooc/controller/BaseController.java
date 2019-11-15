@@ -2,6 +2,8 @@ package com.imooc.controller;
 
 import org.springframework.stereotype.Controller;
 
+import java.io.File;
+
 /**
  * @author augenye
  * @date 2019-11-04 22:58
@@ -20,5 +22,13 @@ public class BaseController {
 
     // 支付中心的地址
     String paymentUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
+
+    public static final String IMAGE_USER_FACE_LOCATION = File.separator + "Users" +
+            File.separator + "yezijian" +
+            File.separator + "project" +
+            File.separator + "foodie-dev" +
+            File.separator + "images" +
+            File.separator + "foodie" +
+            File.separator + "faces";
 
 }

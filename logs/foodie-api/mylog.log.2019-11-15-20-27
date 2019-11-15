@@ -1,0 +1,48 @@
+2019-11-15 20:27:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:00 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 90毫秒 ======
+2019-11-15 20:27:03 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:03 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:03 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:03 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:27:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:06 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-15 20:27:09 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:09 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:09 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:09 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:27:12 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:12 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:12 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:12 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:27:12 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-15 20:27:12 INFO  DispatcherServlet:546 - Completed initialization in 6 ms
+2019-11-15 20:27:12 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2019/11/15, 8:26 下午": not a valid representation (error: Failed to parse Date value '2019/11/15, 8:26 下午': Cannot parse date "2019/11/15, 8:26 下午": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSZ", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd")); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2019/11/15, 8:26 下午": not a valid representation (error: Failed to parse Date value '2019/11/15, 8:26 下午': Cannot parse date "2019/11/15, 8:26 下午": not compatible with any of standard forms ("yyyy-MM-dd'T'HH:mm:ss.SSSZ", "yyyy-MM-dd'T'HH:mm:ss.SSS", "EEE, dd MMM yyyy HH:mm:ss zzz", "yyyy-MM-dd"))
+ at [Source: (PushbackInputStream); line: 10, column: 15] (through reference chain: com.imooc.center.bo.CenterUserBO["birthday"])]
+2019-11-15 20:27:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:15 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-15 20:27:18 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:18 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:18 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:18 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-15 20:27:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:21 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:27:24 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:24 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:24 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:24 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 85毫秒 ======
+2019-11-15 20:27:27 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:27:27 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:27:27 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:27:27 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-15 20:27:27 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-15 20:27:27 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-15 20:27:27 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-15 20:27:27 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

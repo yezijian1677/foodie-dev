@@ -1,0 +1,78 @@
+2019-11-15 20:06:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:00 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 89毫秒 ======
+2019-11-15 20:06:02 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-15 20:06:03 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:03 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:03 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:03 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-15 20:06:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:06 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-15 20:06:09 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:09 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:09 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:09 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:09 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:09 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-15 20:06:09 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-15 20:06:09 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:12 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:12 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:12 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:12 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:06:12 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:12 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-15 20:06:12 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-15 20:06:12 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-15 20:06:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:15 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:06:18 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:18 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:18 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:18 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:21 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-15 20:06:24 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:24 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:24 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:24 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:27 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:27 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:27 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:27 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:06:29 INFO  CookieUtils:198 - ========== domainName: localhost ==========
+2019-11-15 20:06:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:30 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:33 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:33 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:33 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:33 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-15 20:06:36 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:36 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:36 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:36 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:06:37 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:37 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.AddressServiceImpl
+2019-11-15 20:06:37 INFO  ServiceLogAspect:45 - 执行签名: queryAll
+2019-11-15 20:06:37 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-15 20:06:39 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:39 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:39 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:39 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-15 20:06:42 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-15 20:06:42 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-15 20:06:42 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-15 20:06:42 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-15 20:06:44 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-15 20:06:44 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-15 20:06:44 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-15 20:06:44 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
