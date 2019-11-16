@@ -16,5 +16,19 @@ public interface CenterUserService {
      */
     Users queryUserInfo(String userId);
 
+    /**
+     * 更新用户信息
+     * @param userId userId
+     * @param centerUserBO 用户信息
+     * @return users
+     */
     Users updateUserInfo(String userId, CenterUserBO centerUserBO);
+
+    /**
+     *
+     * @param userId userId
+     * @param faceUrl 图像路径
+     * @return users
+     */
+    Users updateUsersFace(String userId, String faceUrl);
 }

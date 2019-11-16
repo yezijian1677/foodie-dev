@@ -1,0 +1,86 @@
+2019-11-16 10:45:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:00 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:03 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:03 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:03 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:03 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:06 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:06 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:06 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:06 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 88毫秒 ======
+2019-11-16 10:45:09 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:09 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:09 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:09 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-16 10:45:12 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:12 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:12 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:12 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-16 10:45:15 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:15 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:15 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:15 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-16 10:45:18 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:18 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:18 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:18 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-16 10:45:21 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:21 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:21 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:21 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 85毫秒 ======
+2019-11-16 10:45:24 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:24 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:24 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:24 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 89毫秒 ======
+2019-11-16 10:45:27 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:27 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:27 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:27 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 86毫秒 ======
+2019-11-16 10:45:27 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-16 10:45:27 INFO  DispatcherServlet:546 - Completed initialization in 8 ms
+2019-11-16 10:45:30 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:30 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:30 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:30 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-16 10:45:33 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:33 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:33 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:33 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 89毫秒 ======
+2019-11-16 10:45:36 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:36 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:36 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:36 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:39 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:39 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:39 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:39 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:42 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:42 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:42 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:42 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:45 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:45 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:45 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:45 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:48 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:48 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:48 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:48 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 89毫秒 ======
+2019-11-16 10:45:51 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:51 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:51 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:51 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-16 10:45:54 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:54 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:54 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:54 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 82毫秒 ======
+2019-11-16 10:45:57 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 10:45:57 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 10:45:57 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 10:45:57 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-16 10:45:57 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-16 10:45:57 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-16 10:45:57 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-16 10:45:57 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
