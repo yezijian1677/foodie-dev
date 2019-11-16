@@ -1,0 +1,12 @@
+2019-11-16 20:36:00 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 20:36:00 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 20:36:00 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 20:36:00 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 87毫秒 ======
+2019-11-16 20:36:03 INFO  ServiceLogAspect:43 - ====== 开始执行 ======
+2019-11-16 20:36:03 INFO  ServiceLogAspect:44 - 执行的类: class com.imooc.service.impl.OrdersServiceImpl
+2019-11-16 20:36:03 INFO  ServiceLogAspect:45 - 执行签名: closeOrder
+2019-11-16 20:36:03 INFO  ServiceLogAspect:61 - ====== 执行完毕, 耗时: 81毫秒 ======
+2019-11-16 20:36:05 INFO  ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-16 20:36:05 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-16 20:36:05 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2019-11-16 20:36:05 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

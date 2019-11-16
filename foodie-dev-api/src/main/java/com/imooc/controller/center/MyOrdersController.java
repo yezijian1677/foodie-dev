@@ -5,6 +5,7 @@ import com.imooc.pojo.Orders;
 import com.imooc.service.center.MyOrdersService;
 import com.imooc.utils.PagedGridResult;
 import com.imooc.utils.Result;
+import com.imooc.vo.OrderStatusCountsVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -22,12 +23,35 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("myorders")
 public class MyOrdersController extends BaseController {
 
-    @Autowired
-    private MyOrdersService myOrdersService;
+    @ApiOperation(value = "查询订单的状态数量", notes = "查询订单的状态数量", httpMethod = "POST")
+    @PostMapping("/statusCounts")
+    public Result statusCounts(@ApiParam(name = "userId", value = "userId", required = true) @RequestParam String userId) {
+        if (StringUtils.isBlank(userId)) {
+            return Result.errorMsg(null);
+        }
+
+       OrderStatusCountsVO result = myOrdersService.getOrderStatusCounts(userId);
+
+        return Result.ok(result);
+    }
+
+    @ApiOperation(value = "查询订单动向", notes = "查询订单动向", httpMethod = "POST")
+    @PostMapping("/trend")
+    public Result trends(@ApiParam(name = "userId", value = "userId", required = true) @RequestParam String userId,
+                        @ApiParam(name = "page", value = "查询下一页的第几页") @RequestParam(defaultValue = "1") Integer page,
+                        @ApiParam(name = "pageSize", value = "分页每一页显示的条数") @RequestParam(defaultValue = "10") Integer pageSize) {
+        if (StringUtils.isBlank(userId)) {
+            return Result.errorMsg(null);
+        }
+
+        PagedGridResult grid = myOrdersService.getOrdersTrend(userId, page, pageSize);
+
+        return Result.ok(grid);
+    }
 
     @ApiOperation(value = "查询订单列表", notes = "查询订单列表", httpMethod = "POST")
     @PostMapping("/query")
-    public Result catItems(@ApiParam(name = "userId", value = "userId", required = true) @RequestParam String userId,
+    public Result query(@ApiParam(name = "userId", value = "userId", required = true) @RequestParam String userId,
                            @ApiParam(name = "orderStatus", value = "订单状态") @RequestParam Integer orderStatus,
                            @ApiParam(name = "page", value = "查询下一页的第几页") @RequestParam(defaultValue = "1") Integer page,
                            @ApiParam(name = "pageSize", value = "分页每一页显示的条数") @RequestParam(defaultValue = "10") Integer pageSize) {
@@ -88,17 +112,6 @@ public class MyOrdersController extends BaseController {
         return Result.ok();
     }
 
-    /**
-     * 用于验证用户和订单是否又刮洗，避免非法调用
-     *
-     * @return
-     */
-    private Result checkUserOrder(String userId, String orderId) {
-        Orders order = myOrdersService.queryMyOrder(orderId, userId);
-        if (order == null) {
-            return Result.errorMsg("订单不存在");
-        }
-        return Result.ok();
-    }
+
 
 }

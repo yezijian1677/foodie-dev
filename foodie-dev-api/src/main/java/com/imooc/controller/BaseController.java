@@ -1,5 +1,10 @@
 package com.imooc.controller;
 
+import com.imooc.pojo.Orders;
+import com.imooc.service.center.MyCommentService;
+import com.imooc.service.center.MyOrdersService;
+import com.imooc.utils.Result;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import java.io.File;
@@ -10,6 +15,11 @@ import java.io.File;
  */
 @Controller
 public class BaseController {
+
+    @Autowired
+    public MyOrdersService myOrdersService;
+    @Autowired
+    public MyCommentService myCommentService;
 
     public static final String FOODIE_SHOPCART = "shopcart";
 
@@ -31,4 +41,17 @@ public class BaseController {
             File.separator + "foodie" +
             File.separator + "faces";
 
+
+    /**
+     * 用于验证用户和订单是否又刮洗，避免非法调用
+     *
+     * @return
+     */
+    public Result checkUserOrder(String userId, String orderId) {
+        Orders order = myOrdersService.queryMyOrder(userId, orderId);
+        if (order == null) {
+            return Result.errorMsg("订单不存在");
+        }
+        return Result.ok(order);
+    }
 }

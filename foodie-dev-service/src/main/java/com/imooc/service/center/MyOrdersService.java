@@ -2,6 +2,7 @@ package com.imooc.service.center;
 
 import com.imooc.pojo.Orders;
 import com.imooc.utils.PagedGridResult;
+import com.imooc.vo.OrderStatusCountsVO;
 
 /**
  * @author augenye
@@ -47,6 +48,22 @@ public interface MyOrdersService {
      * @return
      */
     boolean deleteOrder(String userId, String orderId);
+
+    /**
+     * 根据用户id查询订单
+     * @param userId
+     */
+    OrderStatusCountsVO getOrderStatusCounts(String userId);
+
+    /**
+     * 获得分页的订单动向
+     * @param userId
+     * @param page
+     * @param pageSize
+     * @return
+     */
+    PagedGridResult getOrdersTrend(String userId, Integer page, Integer pageSize);
+
 
 
 }

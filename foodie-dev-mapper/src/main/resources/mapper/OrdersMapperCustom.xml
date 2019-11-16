@@ -10,6 +10,7 @@
         <result column="realPayAmount" property="realPayAmount"/>
         <result column="postAmount" property="postAmount"/>
         <result column="orderStatus" property="orderStatus"/>
+        <result column="isComment" property="isComment"/>
 
         <collection property="subOrderItemList" select="getSubItems" column="orderId" ofType="com.imooc.vo.MySubOrderItemVO">
             <result column="itemId" property="itemId"/>
@@ -29,7 +30,8 @@
             od.pay_method as payMehod,
             od.real_pay_amount as realPayAmount,
             od.post_amount as postAmount,
-            os.order_status as orderStatus
+            os.order_status as orderStatus,
+            od.is_comment as isComment
         FROM
             orders od
         LEFT JOIN
@@ -92,5 +94,51 @@
         ORDER BY
         od.updated_time ASC
 
+    </select>
+
+    <select id="getMyOrderStatusCounts" parameterType="map" resultType="int">
+        SELECT
+            COUNT(1)
+        FROM
+            orders o
+        LEFT JOIN
+            order_status os
+        ON
+            o.id = os.order_id
+        WHERE
+            o.user_id = #{paramsMap.userId}
+        AND
+            os.order_status = #{paramsMap.orderStatus}
+        <if test="paramsMap.isComment!=null">
+            AND
+                o.is_comment = #{paramsMap.isComment}
+        </if>
+    </select>
+
+    <select id="getMyOrderTrend" parameterType="map" resultType="com.imooc.pojo.OrderStatus">
+        SELECT
+            os.order_id as orderId,
+            os.order_status as orderStatus,
+            os.created_time as createdTime,
+            os.pay_time as payTime,
+            os.deliver_time as deliverTime,
+            os.success_time as successTime,
+            os.close_time as closeTime,
+            os.comment_time as commentTime
+        FROM
+            orders o
+        LEFT JOIN
+            order_status os
+        ON
+            o.id = os.order_id
+        WHERE
+            o.is_delete = 0
+        AND
+            user_id = #{paramsMap.userId}
+        AND
+            os.order_status in (20, 30, 40)
+        ORDER BY
+            os.order_id
+        DESC
     </select>
 </mapper>
