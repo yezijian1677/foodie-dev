@@ -22,6 +22,9 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.addAllowedOrigin("http://localhost:8080");
         config.addAllowedOrigin("http://139.129.231.161:8080");
+        config.addAllowedOrigin("http://augenye.cn:8080");
+        config.addAllowedOrigin("http://augenye.cn");
+        config.addAllowedOrigin("http://augenye.cn");
 
         // 设置是否发送cookie信息
         config.setAllowCredentials(true);

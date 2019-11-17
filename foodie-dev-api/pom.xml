@@ -11,6 +11,7 @@
 
     <artifactId>foodie-dev-api</artifactId>
 
+    <!-- 打包 -->
     <packaging>war</packaging>
 
     <dependencies>
@@ -33,6 +34,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
 
     </dependencies>
 

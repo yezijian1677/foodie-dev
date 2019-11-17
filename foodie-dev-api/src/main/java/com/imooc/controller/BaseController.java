@@ -28,8 +28,8 @@ public class BaseController {
 
     //微信支付中心 -> 支付中心 -> 天天吃货平台
     //                   ｜回调中心的Url
-    String payReturnUrl = "http://bnxqj6.natappfree.cc/orders/notifyMerchantOrderPaid";
-
+//    String payReturnUrl = "http://bnxqj6.natappfree.cc/orders/notifyMerchantOrderPaid";
+    String payReturnUrl = "http://augenye.cn:8088/foodie-dev-api/orders/notifyMerchantOrderPaid";
     // 支付中心的地址
     String paymentUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
 

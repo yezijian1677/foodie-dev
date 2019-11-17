@@ -46,10 +46,16 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- web模块 -->
+        <!-- web模块 排除自身的内置tomcat -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- aop模块 -->
         <dependency>
@@ -143,7 +149,12 @@
             <version>1.2.12</version>
         </dependency>
 
-
+        <!--添加本地servelet-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
 
     </dependencies>
